@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry monster</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header-section">
+        <div class="meal-wrapper">
+            <ul class="menu-bar">
+                <li class="logo"><a href="#">Hungry monster</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recipe</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <div class="title">
+                    <h2>Find Meals for your Ingredients</h2>
+                    <h5>Please wait for lode after searching</h5>
+                    <div class="meal-search-box">
+                        <input type="text" class="search-control" placeholder="Enter your ingredients" id="search-input">
+                        <button type="submit" class="search-btn btn" id="search-btn">
+                            Search
+                        </button>
+                    </div>
+                </div>
+                <div class="meal-result">
+                    <h2 class="title">Your search results</h2>
+                    <div id="meal">
+                    </div>
+                </div>
+                <div class="meal-details">
+                    <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                    <div class="meal-details-content">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
